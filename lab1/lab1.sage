@@ -115,6 +115,7 @@ class Kasumi:
         
         return hamming_weight_list
     
+    
     def zhegalkin_polynomial_linear_span(self, input):
         sbox = SBox(input)
         
