@@ -56,6 +56,6 @@ class FiniteStateMachine:
 if __name__ == '__main__':
     FSM = FiniteStateMachine()
     
-    print(FSM.transitions())
-    print(FSM.lfsr_sequence())
-    print(FSM.charpoly())
+    print('Transitions:', FSM.transitions())
+    print('LFSR sequence:', FSM.lfsr_sequence())
+    print('Characteristic polynomial:', FSM.charpoly())
