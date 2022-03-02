@@ -205,5 +205,5 @@ class Kasumi:
 if __name__ == '__main__':
     kasumi = Kasumi()
     
-    print('Fourier coefficient list: ', kasumi.fourier_walsh_hadamard(S7))
-    print('Linear analog list: ', kasumi.affine_approximation(S9))
+    print('Fourier coefficient list:', kasumi.fourier_walsh_hadamard(S7))
+    print('Linear analog list:', kasumi.affine_approximation(S9))
