@@ -47,14 +47,14 @@ class FiniteStateMachine:
         
         for row in self.A:
             fill = list(self.F(s) for s in row)
-            L.append(lfsr_sequence(key, fill, 20))
+            L.append(lfsr_sequence(key, fill, len(row)))
         
         s = automata.Word(L)
         return s.transitions()
     
     
     def charpoly(self):
-        A = matrix(QQ, self.A)
+        A = matrix(BooleanPolynomialRing(len(self.B)), self.A)
         return A.charpoly()
 
 
