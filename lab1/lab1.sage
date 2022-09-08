@@ -1,5 +1,4 @@
 #!/usr/bin/env sage
-
 from functools import reduce
 from itertools import product
 

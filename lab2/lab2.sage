@@ -1,5 +1,4 @@
 #!/usr/bin/env sage
-
 import sys
 import toyplot
 

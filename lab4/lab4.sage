@@ -1,5 +1,4 @@
 #!/usr/bin/env sage
-
 from enum import IntEnum
 from math import ceil, gcd, sqrt
 import random
