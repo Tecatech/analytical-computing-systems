@@ -1,6 +1,6 @@
 #!/usr/bin/env sage
-import sys
 from sage.crypto.boolean_function import BooleanFunction
+import sys
 import toyplot
 
 A18 = [
