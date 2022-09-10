@@ -1,7 +1,6 @@
 #!/usr/bin/env sage
 import itertools
 import random
-
 from sage.crypto.boolean_function import BooleanFunction
 
 BF8 = [1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0,

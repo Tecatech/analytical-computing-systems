@@ -1,8 +1,7 @@
 #!/usr/bin/env sage
 import sys
-import toyplot
-
 from sage.crypto.boolean_function import BooleanFunction
+import toyplot
 
 A18 = [
     [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],

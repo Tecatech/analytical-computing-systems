@@ -1,7 +1,6 @@
 #!/usr/bin/env sage
 from functools import reduce
 from itertools import product
-
 from sage.crypto.boolean_function import BooleanFunction
 from sage.crypto.sbox import SBox
 from sage.rings.integer import Integer
